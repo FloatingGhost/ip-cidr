@@ -7,7 +7,7 @@ Module for working with CIDR (v4, v6). Based on [ip-address](https://github.com/
 # Example  
 
 ```js
-const CIDR = require("ip-cidr");
+import CIDR from "ip-cidr-webpack";
 
 let cidr = new CIDR("50.165.190.0/23"); 
 
