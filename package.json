@@ -1,7 +1,7 @@
 {
-  "name": "ip-cidr",
+  "name": "ip-cidr-webpack",
   "version": "1.2.0",
-  "description": "Module for working with CIDR (v4, v6)",
+  "description": "Module for working with CIDR (v4, v6), enabling `import` syntax",
   "main": "./index.js",
   "author": {
     "name": "Balasyan Alexandr / Hannah Ward",
