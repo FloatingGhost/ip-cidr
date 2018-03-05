@@ -1,9 +1,7 @@
-"use strict";
+import ipAddress from 'ip-address';
+import { BigInteger } from 'jsbn';
 
-const ipAddress = require('ip-address');
-const BigInteger = require('jsbn').BigInteger;
-
-class IPCIDR {
+export default class IPCIDR {
   constructor(cidr) {
     let ipAddressType = cidr.match(":") ? ipAddress.Address6 : ipAddress.Address4;
     let address = new ipAddressType(cidr);
@@ -142,5 +140,3 @@ class IPCIDR {
     };
   }
 }
-
-module.exports = IPCIDR;

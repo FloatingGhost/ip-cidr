@@ -1,11 +1,11 @@
 {
   "name": "ip-cidr",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Module for working with CIDR (v4, v6)",
   "main": "./index.js",
   "author": {
-    "name": "Balasyan Alexandr",
-    "email": "mywebstreet@gmail.com"
+    "name": "Balasyan Alexandr / Hannah Ward",
+    "email": "mywebstreet@gmail.com / hannah.ward9001@gmail.com"
   },
   "keywords": [
     "ip",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha",
-    "build": "browserify ./ip-cidr.js > ./dist/ip-cidr.js"
+    "build": "webpack -p"
   },
   "dependencies": {
     "ip-address": "^5.8.6",
@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "browserify": "^14.4.0",
-    "mocha": "^3.2.0",
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   },
   "repository": {
     "type": "git",
